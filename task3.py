@@ -19,7 +19,7 @@ elif x_coordinate < 0 and y_coordinate < 0:
 elif x_coordinate > 0 and y_coordinate < 0:
     print('Точка находится в IV четверти плоскости')
 elif x_coordinate == 0 and y_coordinate == 0:
-    print('Точка находится в центре системы координат')    
+    print('Точка находится в центре плоскости координат')    
 elif x_coordinate == 0:
     print('Точка находится на оси X')
 elif y_coordinate == 0:
