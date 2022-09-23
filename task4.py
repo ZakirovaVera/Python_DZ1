@@ -1,15 +1,15 @@
 # Напишите программу, которая по заданному номеру четверти, показывает диапазон
 # возможных координат точек в этой четверти (x и y).
 
-quarter_Number = int(input('Введите номер четверти: '))
+quarter_number = int(input('Введите номер четверти: '))
 
-if quarter_Number == 1:
+if quarter_number == 1:
     print('Х (0; + бесконечности), Y(0; + бесконечности)')
-elif quarter_Number == 2:
+elif quarter_number == 2:
     print('Х (0; - бесконечности), Y(0; + бесконечности)')
-elif quarter_Number == 3:
+elif quarter_number == 3:
     print('Х (0; - бесконечности), Y(0; - бесконечности)')
-elif quarter_Number == 4:
+elif quarter_number == 4:
     print('Х (0; + бесконечности), Y(0; - бесконечности)')
 else:
     print('Error! Такой плоскости нет')

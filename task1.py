@@ -5,11 +5,11 @@
 # - 7 -> да
 # - 1 -> нет
 
-day_Number = int(input('Введите число: '))
+day_number = int(input('Введите число: '))
 
-if day_Number < 1 or day_Number > 7:
+if day_number < 1 or day_number > 7:
     print('Число не входит в дни недели')
-elif day_Number >= 1 and day_Number <= 5:
+elif day_number >= 1 and day_number <= 5:
     print('Будни')
 else:
     print('Да, выходной!')
