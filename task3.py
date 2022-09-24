@@ -11,16 +11,16 @@ x_coordinate = int(input('Введите координату Х: '))
 y_coordinate = int(input('Введите координату Y: '))
 
 if x_coordinate > 0 and y_coordinate > 0:
-    print('Точка находится в I четверти плоскости')
+    print(f'x = {x_coordinate}; y = {y_coordinate} -> I четверть плоскости')
 if x_coordinate < 0 and y_coordinate > 0:
-    print('Точка находится в II четверти плоскости')
+    print(f'x = {x_coordinate}; y = {y_coordinate} -> II четверть плоскости')
 if x_coordinate < 0 and y_coordinate < 0:
-    print('Точка находится в III четверти плоскости')
+    print(f'x = {x_coordinate}; y = {y_coordinate} -> III четверть плоскости')
 if x_coordinate > 0 and y_coordinate < 0:
-    print('Точка находится в IV четверти плоскости')
+    print(f'x = {x_coordinate}; y = {y_coordinate} -> IV четверть плоскости')
 if x_coordinate == 0 and y_coordinate == 0:
-    print('Точка находится в центре плоскости координат')    
+    print(f'Точка x = {x_coordinate}; y = {y_coordinate} находится в центре плоскости координат')    
 if x_coordinate == 0:
-    print('Точка находится на оси X')
+    print(f'Точка x = {x_coordinate}; y = {y_coordinate} находится на оси X')
 if y_coordinate == 0:
-    print('Точка находится на оси Y')
+    print(f'Точка x = {x_coordinate}; y = {y_coordinate} находится на оси Y')

@@ -8,8 +8,8 @@
 day_number = int(input('Введите число: '))
 
 if day_number < 1 or day_number > 7:
-    print('Число не входит в дни недели')
+    print(f'Число {day_number} не входит в дни недели')
 elif day_number >= 1 and day_number <= 5:
-    print('Будни')
+    print(f'{day_number} -> Нет, Будни')
 else:
-    print('Да, выходной!')
+    print(f'{day_number} -> Да, выходной!')

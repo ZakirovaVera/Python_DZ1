@@ -12,4 +12,4 @@ elif quarter_number == 3:
 elif quarter_number == 4:
     print('Х (0; + бесконечности), Y(0; - бесконечности)')
 else:
-    print('Error! Такой плоскости нет')
+    print('Error! Такой четверти нет')
