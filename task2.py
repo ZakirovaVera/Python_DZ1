@@ -1,12 +1,12 @@
 # Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z
 # для всех значений предикат.
-
-x = int(input('Введите данные X: '))
-y = int(input('Введите данные Y: '))
-z = int(input('Введите данные Z: '))
+import random
+x = random.randrange(0,2)
+y = random.randrange(0,2)
+z = random.randrange(0,2)
 
 result = not (x or y or z) == (not x and not y and not z)
 print(f'х = {x}, y = {y}, z = {z} \n¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z \nРезультат: {result}')
 
 # Данное утверждение истинности во всех случаях будет True, в print 
-# и выводится итог проверки, поэтому условий не требуется.
+# выводится итог проверки.
